@@ -1,5 +1,5 @@
 ![](../images/header.jpg)
 
-# Introduction à la modélisation système des véhicules électriques
+# DGAC SPHINX project
 
-*Introduction to electric vehicle system modeling*
+*Composite air intake electromechanical resonant de-icing*

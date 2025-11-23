@@ -1,8 +1,8 @@
 # Book settings
-title: EV powertrain modeling 
+title: SPHINX project
 author: Marc Budinger, INSA Toulouse
 logo: images/logo.png
-copyright: "2024"
+copyright: "2023"
 exclude_patterns: ["LICENSE.md", "README.md", _build, .DS_Store, "**.ipynb_checkpoints"]
 only_build_toc_files: true
 
@@ -38,7 +38,7 @@ launch_buttons:
   colab_url          : "https://colab.research.google.com"
 
 repository: 
-  url          : https://github.com/marcbudinger/EVpowertrain
+  url          : https://github.com/DeIcingLab/Sphinx
   path_to_book : ""
   branch       : main
 
@@ -67,4 +67,4 @@ sphinx:
     - substitution
 
     myst_substitutions:
-      TITLE: "EV powertrain modeling"
+      TITLE: "SPHINX project: Air intake composite electromechanical resonant deicing"
