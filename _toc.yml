@@ -1,0 +1,23 @@
+format: jb-book
+root: about/homepage
+parts:
+- caption: About
+
+- caption: Project
+  chapters:
+  - file: notebook/01_Project
+  
+- caption: Consortium
+  chapters:
+  - file: notebook/02_Consortium
+
+- caption: Outcome and events
+  chapters:
+  - file: notebook/02_OutcomeEvents
+  
+      
+      
+      
+      
+
+      
