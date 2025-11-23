@@ -13,7 +13,7 @@ parts:
 
 - caption: Outcome and events
   chapters:
-  - file: notebook/02_OutcomeEvents
+  - file: notebook/03_OutcomeEvents
   
       
       
