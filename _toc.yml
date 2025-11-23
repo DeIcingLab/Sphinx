@@ -1,8 +1,6 @@
 format: jb-book
 root: about/homepage
 parts:
-- caption: About
-
 - caption: Project
   chapters:
   - file: notebook/01_Project
