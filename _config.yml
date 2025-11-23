@@ -29,7 +29,7 @@ html:
   # comments:
   #   hypothesis: false
   #   utterances:
-  #     repo: "marcbudinger/EVpowertrain"
+  #     repo: "DeIcingLab/Sphinx"
   #   dokieli: false
 
 launch_buttons:
