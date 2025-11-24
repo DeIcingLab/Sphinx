@@ -1,0 +1,669 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Batteries de traction : panorama &#8212; SPHINX project</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/exercise.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'notebook/03_OutcomeEvents';</script>
+    <link rel="shortcut icon" href="../_static/logo.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Convertisseurs statiques : panorama" href="02_Consortium.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../about/homepage.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="SPHINX project - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="SPHINX project - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Project</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="01_Project.html">Empreinte carbone de la mobilité</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Consortium</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="02_Consortium.html">Convertisseurs statiques : panorama</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Outcome and events</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Batteries de traction : panorama</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/DeIcingLab/Sphinx/main?urlpath=lab/tree/notebook/03_OutcomeEvents.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onBinder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img src="../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/DeIcingLab/Sphinx/blob/main/notebook/03_OutcomeEvents.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onColab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img src="../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/DeIcingLab/Sphinx" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/DeIcingLab/Sphinx/edit/main/notebook/03_OutcomeEvents.ipynb" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/DeIcingLab/Sphinx/issues/new?title=Issue%20on%20page%20%2Fnotebook/03_OutcomeEvents.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/notebook/03_OutcomeEvents.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Batteries de traction : panorama</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#de-la-cellule-au-pack-batterie">De la cellule au pack batterie</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notations-generales-associees-aux-batteries">Notations générales associées aux batteries</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelisation-systeme-dune-batterie">Modélisation système d’une batterie</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">Références</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="batteries-de-traction-panorama">
+<h1>Batteries de traction : panorama<a class="headerlink" href="#batteries-de-traction-panorama" title="Permalink to this heading">#</a></h1>
+<p><em>Ecrit par Marc Budinger, INSA Toulouse, France</em></p>
+<section id="de-la-cellule-au-pack-batterie">
+<h2>De la cellule au pack batterie<a class="headerlink" href="#de-la-cellule-au-pack-batterie" title="Permalink to this heading">#</a></h2>
+<p>Les batteries de traction pour VE sont constituées de cellules regroupées selon une hiérarchie structurée :</p>
+<ul class="simple">
+<li><p><strong>Cellules :</strong> Ce sont les unités élémentaires (cylindriques, prismatiques ou pouch) fournissant l’énergie.</p>
+<ul>
+<li><p>Cellules cylindriques (18650, 21700)</p></li>
+<li><p>Cellules prismatiques</p></li>
+<li><p>Cellules pouch (ou sachet)</p></li>
+</ul>
+</li>
+<li><p><strong>Modules :</strong>  Groupes de cellules organisées en configurations série, parallèle ou combinées (exemple : 10S2P). Le rôle du module est de faciliter l’assemblage et la maintenance. Il permet d’intégrer des capteurs pour surveiller la tension, le courant et la température et simplifie la gestion thermique et électrique.</p></li>
+<li><p><strong>Pack de batteries :</strong> Assemblage de plusieurs modules pour répondre aux besoins énergétiques et de puissance du véhicule. C’est lui qui fournit l’énergie nécessaire pour propulser le moteur électrique et alimenter les systèmes auxiliaires.</p></li>
+</ul>
+<p><em>Formes des cellules</em><br />
+<img alt="Formes des cellules" src="notebook/figures/CellsFormats.png" /></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Chimies des cellules    <div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Les cellules de batteries utilisent différentes chimies, chacune ayant des avantages et des inconvénients en termes de densité énergétique, de durée de vie, de sécurité et de coût. Voici les principales chimies :</p>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Lithium-ion (Li-ion)</strong>:</p>
+<ul>
+<li><p class="sd-card-text">NMC (Nickel-Manganèse-Cobalt) : Bonne densité énergétique, utilisé dans les véhicules électriques (VE).</p></li>
+<li><p class="sd-card-text">LFP (Lithium-Fer-Phosphate) : Moins dense en énergie que NMC mais plus sûr et plus durable.</p></li>
+<li><p class="sd-card-text">NCA (Nickel-Cobalt-Aluminium) : Densité énergétique élevée, gestion complexe, utilisé notamment par Tesla.</p></li>
+<li><p class="sd-card-text">LTO (Lithium-Titanate-Oxyde) : Longue durée de vie et excellente sécurité, mais faible densité énergétique.</p></li>
+<li><p class="sd-card-text">LiPo (Lithium Polymère) : se caractérise par une densité d’énergie élevée, une forme flexible grâce à son électrolyte sous forme de gel polymère,</p></li>
+</ul>
+</li>
+<li><p class="sd-card-text"><strong>Plomb-acide :</strong> Technologie ancienne, faible coût mais faible densité énergétique. Principalement utilisé pour les systèmes de démarrage ou le stockage stationnaire.</p></li>
+<li><p class="sd-card-text"><strong>Nickel (NiCd, NiMH) :</strong> Obsolète pour la plupart des applications modernes. Le NiMH est encore utilisé dans certaines applications hybrides.</p></li>
+<li><p class="sd-card-text"><strong>Sodium-ion :</strong>  Une alternative émergente, moins coûteuse et plus respectueuse de l’environnement, mais moins dense énergétiquement que le Li-ion.</p></li>
+</ul>
+</div>
+</details><p><em>Architecture d’une <a class="reference external" href="https://lythbattery.com/what-is-battery-module">batterie de traction</a></em><br />
+<img alt="Cell to Pack" src="notebook/figures/Cell2Pack.PNG" /></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Elements technologiques complémentaires    <div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Les batteries de traction doivent être protégées et optimisées pour garantir leur sécurité, leur efficacité et leur durabilité. Voici les technologies clés :</p>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>BMS (Battery Management System) :</strong> Le BMS est l’unité de gestion électronique essentielle pour le bon fonctionnement des batteries. Fonctions principales :</p>
+<ul>
+<li><p class="sd-card-text">Surveillance : Mesure les tensions, les courants et les températures des cellules.</p></li>
+<li><p class="sd-card-text">Équilibrage : Égalise les tensions des cellules en série pour prévenir la surcharge ou la décharge excessive.</p></li>
+<li><p class="sd-card-text">Protection : Détecte les anomalies (surchauffe, courts-circuits, etc.) et coupe le circuit si nécessaire.</p></li>
+<li><p class="sd-card-text">Communication : Transmet les données au système de contrôle du véhicule (ECU).</p></li>
+<li><p class="sd-card-text">Gestion thermique : Interface avec les systèmes de refroidissement pour éviter la surchauffe.</p></li>
+</ul>
+</li>
+<li><p class="sd-card-text"><strong>Systèmes de refroidissement :</strong> La gestion thermique est cruciale pour maintenir les performances et éviter les dégradations des cellules.</p>
+<ul>
+<li><p class="sd-card-text">Refroidissement par air : Utilise des flux d’air forcé pour dissiper la chaleur (simple, mais moins efficace).</p></li>
+<li><p class="sd-card-text">Refroidissement liquide : Utilise des circuits de liquide caloporteur circulant dans les modules ou  des plaques froides (plus complexe, mais très efficace).</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</details></section>
+<section id="notations-generales-associees-aux-batteries">
+<h2>Notations générales associées aux batteries<a class="headerlink" href="#notations-generales-associees-aux-batteries" title="Permalink to this heading">#</a></h2>
+<p>Voici quelques grandeurs et notations associées aux batteries:</p>
+<ul class="simple">
+<li><p><strong>Capacité nominale © :</strong> Mesurée en ampères-heures (Ah), elle représente la quantité totale de charge que la batterie peut stocker.</p></li>
+<li><p><strong>Taux de décharge (C-rate) :</strong> il mesure la vitesse à laquelle une batterie est déchargée. 1C signifie que la batterie est déchargée en une heure, 2C en 30 minutes.</p></li>
+<li><p><strong>Énergie spécifique et densité énergétique :</strong></p>
+<ul>
+<li><p>Énergie spécifique (Wh/kg) : Énergie stockée par unité de poids.</p></li>
+<li><p>Densité énergétique (Wh/L) : Énergie stockée par unité de volume.</p></li>
+</ul>
+</li>
+<li><p><strong>Tension nominale (V) :</strong> Tension moyenne d’une cellule ou d’un pack dans des conditions normales.</p></li>
+<li><p><strong>Cycle de vie :</strong> Nombre de cycles de charge-décharge qu’une batterie peut effectuer avant que sa capacité ne tombe sous un seuil (généralement 80 % de la capacité initiale).</p></li>
+<li><p><strong>SOC (State of Charge) :</strong> Représente le pourcentage de charge restante.</p></li>
+<li><p><strong>IR (Internal Resistance) :</strong> Résistance interne de la batterie, qui affecte la puissance maximale et les pertes thermiques.</p></li>
+</ul>
+<p><em>Batterie LiPo</em><br />
+<img alt="Pack Lipo" src="notebook/figures/LipoExample.png" /></p>
+<blockquote>
+<div><p><strong>Question</strong>: Calculer la puissance spécifique et l’énergie spécifique de cette batterie LiPo de 273g.</p>
+</div></blockquote>
+</section>
+<section id="modelisation-systeme-dune-batterie">
+<h2>Modélisation système d’une batterie<a class="headerlink" href="#modelisation-systeme-dune-batterie" title="Permalink to this heading">#</a></h2>
+<p>La modélisation d’une batterie nécessite une approche couplée électro-thermique [<span class="xref myst">Damay, 2016</span>] combinant des modèles électriques (tels que le circuit Randles) avec des modèles thermiques pour simuler à la fois les pertes électriques et les effets thermiques. Ces approches prennent en compte la diffusion des ions aux seins des matériaux actifs des électrodes et l’électrolyte et la génération de chaleur interne due au courant de charge et décharge.</p>
+<p><em>Couplage entre les modèles thermique, électrique et de génération de chaleur</em>
+<img alt="Couplage de modeles" src="notebook/figures/ElectroThermiqueBat.PNG" /></p>
+</section>
+<section id="references">
+<h2>Références<a class="headerlink" href="#references" title="Permalink to this heading">#</a></h2>
+<p><strong>[Damay, 20016]</strong> Damay, N. M. R., Friedrich, G., &amp; Forgez, C. (2016, June). Modelisation thermique en vue du dimensionnement d’un pack batterie, avec prise en compte du couplage electro-thermique pour la caracterisation des pertes electriques. In Symposium de Genie Electrique. <a class="reference external" href="https://hal.science/hal-01361630/document">Link</a></p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./notebook"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="02_Consortium.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Convertisseurs statiques : panorama</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#de-la-cellule-au-pack-batterie">De la cellule au pack batterie</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notations-generales-associees-aux-batteries">Notations générales associées aux batteries</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelisation-systeme-dune-batterie">Modélisation système d’une batterie</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">Références</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Marc Budinger, INSA Toulouse
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
