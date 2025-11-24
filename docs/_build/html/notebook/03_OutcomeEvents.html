@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Batteries de traction : panorama &#8212; SPHINX project</title>
+    <title>Outcomes and events &#8212; SPHINX project</title>
   
   
   
@@ -67,7 +67,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../_static/logo.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Convertisseurs statiques : panorama" href="02_Consortium.html" />
+    <link rel="prev" title="Members of the electromechanical deicing WP" href="02_Consortium.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -163,15 +163,15 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Project</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="01_Project.html">Empreinte carbone de la mobilité</a></li>
+<li class="toctree-l1"><a class="reference internal" href="01_Project.html">SPHINx project</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Consortium</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="02_Consortium.html">Convertisseurs statiques : panorama</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_Consortium.html">Members of the electromechanical deicing WP</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Outcome and events</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Batteries de traction : panorama</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Outcomes and events</a></li>
 </ul>
 
     </div>
@@ -423,7 +423,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Batteries de traction : panorama</h1>
+    <h1>Outcomes and events</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -433,10 +433,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#de-la-cellule-au-pack-batterie">De la cellule au pack batterie</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notations-generales-associees-aux-batteries">Notations générales associées aux batteries</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelisation-systeme-dune-batterie">Modélisation système d’une batterie</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">Références</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publications">Publications</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video">Video</a></li>
 </ul>
             </nav>
         </div>
@@ -448,109 +446,23 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="batteries-de-traction-panorama">
-<h1>Batteries de traction : panorama<a class="headerlink" href="#batteries-de-traction-panorama" title="Permalink to this heading">#</a></h1>
-<p><em>Ecrit par Marc Budinger, INSA Toulouse, France</em></p>
-<section id="de-la-cellule-au-pack-batterie">
-<h2>De la cellule au pack batterie<a class="headerlink" href="#de-la-cellule-au-pack-batterie" title="Permalink to this heading">#</a></h2>
-<p>Les batteries de traction pour VE sont constituées de cellules regroupées selon une hiérarchie structurée :</p>
-<ul class="simple">
-<li><p><strong>Cellules :</strong> Ce sont les unités élémentaires (cylindriques, prismatiques ou pouch) fournissant l’énergie.</p>
-<ul>
-<li><p>Cellules cylindriques (18650, 21700)</p></li>
-<li><p>Cellules prismatiques</p></li>
-<li><p>Cellules pouch (ou sachet)</p></li>
-</ul>
-</li>
-<li><p><strong>Modules :</strong>  Groupes de cellules organisées en configurations série, parallèle ou combinées (exemple : 10S2P). Le rôle du module est de faciliter l’assemblage et la maintenance. Il permet d’intégrer des capteurs pour surveiller la tension, le courant et la température et simplifie la gestion thermique et électrique.</p></li>
-<li><p><strong>Pack de batteries :</strong> Assemblage de plusieurs modules pour répondre aux besoins énergétiques et de puissance du véhicule. C’est lui qui fournit l’énergie nécessaire pour propulser le moteur électrique et alimenter les systèmes auxiliaires.</p></li>
-</ul>
-<p><em>Formes des cellules</em><br />
-<img alt="Formes des cellules" src="notebook/figures/CellsFormats.png" /></p>
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-Chimies des cellules    <div class="sd-summary-down docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="sd-summary-up docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="sd-summary-content sd-card-body docutils">
-<p class="sd-card-text">Les cellules de batteries utilisent différentes chimies, chacune ayant des avantages et des inconvénients en termes de densité énergétique, de durée de vie, de sécurité et de coût. Voici les principales chimies :</p>
-<ul class="simple">
-<li><p class="sd-card-text"><strong>Lithium-ion (Li-ion)</strong>:</p>
-<ul>
-<li><p class="sd-card-text">NMC (Nickel-Manganèse-Cobalt) : Bonne densité énergétique, utilisé dans les véhicules électriques (VE).</p></li>
-<li><p class="sd-card-text">LFP (Lithium-Fer-Phosphate) : Moins dense en énergie que NMC mais plus sûr et plus durable.</p></li>
-<li><p class="sd-card-text">NCA (Nickel-Cobalt-Aluminium) : Densité énergétique élevée, gestion complexe, utilisé notamment par Tesla.</p></li>
-<li><p class="sd-card-text">LTO (Lithium-Titanate-Oxyde) : Longue durée de vie et excellente sécurité, mais faible densité énergétique.</p></li>
-<li><p class="sd-card-text">LiPo (Lithium Polymère) : se caractérise par une densité d’énergie élevée, une forme flexible grâce à son électrolyte sous forme de gel polymère,</p></li>
-</ul>
-</li>
-<li><p class="sd-card-text"><strong>Plomb-acide :</strong> Technologie ancienne, faible coût mais faible densité énergétique. Principalement utilisé pour les systèmes de démarrage ou le stockage stationnaire.</p></li>
-<li><p class="sd-card-text"><strong>Nickel (NiCd, NiMH) :</strong> Obsolète pour la plupart des applications modernes. Le NiMH est encore utilisé dans certaines applications hybrides.</p></li>
-<li><p class="sd-card-text"><strong>Sodium-ion :</strong>  Une alternative émergente, moins coûteuse et plus respectueuse de l’environnement, mais moins dense énergétiquement que le Li-ion.</p></li>
-</ul>
-</div>
-</details><p><em>Architecture d’une <a class="reference external" href="https://lythbattery.com/what-is-battery-module">batterie de traction</a></em><br />
-<img alt="Cell to Pack" src="notebook/figures/Cell2Pack.PNG" /></p>
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-Elements technologiques complémentaires    <div class="sd-summary-down docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="sd-summary-up docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="sd-summary-content sd-card-body docutils">
-<p class="sd-card-text">Les batteries de traction doivent être protégées et optimisées pour garantir leur sécurité, leur efficacité et leur durabilité. Voici les technologies clés :</p>
-<ul class="simple">
-<li><p class="sd-card-text"><strong>BMS (Battery Management System) :</strong> Le BMS est l’unité de gestion électronique essentielle pour le bon fonctionnement des batteries. Fonctions principales :</p>
-<ul>
-<li><p class="sd-card-text">Surveillance : Mesure les tensions, les courants et les températures des cellules.</p></li>
-<li><p class="sd-card-text">Équilibrage : Égalise les tensions des cellules en série pour prévenir la surcharge ou la décharge excessive.</p></li>
-<li><p class="sd-card-text">Protection : Détecte les anomalies (surchauffe, courts-circuits, etc.) et coupe le circuit si nécessaire.</p></li>
-<li><p class="sd-card-text">Communication : Transmet les données au système de contrôle du véhicule (ECU).</p></li>
-<li><p class="sd-card-text">Gestion thermique : Interface avec les systèmes de refroidissement pour éviter la surchauffe.</p></li>
-</ul>
-</li>
-<li><p class="sd-card-text"><strong>Systèmes de refroidissement :</strong> La gestion thermique est cruciale pour maintenir les performances et éviter les dégradations des cellules.</p>
-<ul>
-<li><p class="sd-card-text">Refroidissement par air : Utilise des flux d’air forcé pour dissiper la chaleur (simple, mais moins efficace).</p></li>
-<li><p class="sd-card-text">Refroidissement liquide : Utilise des circuits de liquide caloporteur circulant dans les modules ou  des plaques froides (plus complexe, mais très efficace).</p></li>
-</ul>
-</li>
-</ul>
-</div>
-</details></section>
-<section id="notations-generales-associees-aux-batteries">
-<h2>Notations générales associées aux batteries<a class="headerlink" href="#notations-generales-associees-aux-batteries" title="Permalink to this heading">#</a></h2>
-<p>Voici quelques grandeurs et notations associées aux batteries:</p>
-<ul class="simple">
-<li><p><strong>Capacité nominale © :</strong> Mesurée en ampères-heures (Ah), elle représente la quantité totale de charge que la batterie peut stocker.</p></li>
-<li><p><strong>Taux de décharge (C-rate) :</strong> il mesure la vitesse à laquelle une batterie est déchargée. 1C signifie que la batterie est déchargée en une heure, 2C en 30 minutes.</p></li>
-<li><p><strong>Énergie spécifique et densité énergétique :</strong></p>
-<ul>
-<li><p>Énergie spécifique (Wh/kg) : Énergie stockée par unité de poids.</p></li>
-<li><p>Densité énergétique (Wh/L) : Énergie stockée par unité de volume.</p></li>
-</ul>
-</li>
-<li><p><strong>Tension nominale (V) :</strong> Tension moyenne d’une cellule ou d’un pack dans des conditions normales.</p></li>
-<li><p><strong>Cycle de vie :</strong> Nombre de cycles de charge-décharge qu’une batterie peut effectuer avant que sa capacité ne tombe sous un seuil (généralement 80 % de la capacité initiale).</p></li>
-<li><p><strong>SOC (State of Charge) :</strong> Représente le pourcentage de charge restante.</p></li>
-<li><p><strong>IR (Internal Resistance) :</strong> Résistance interne de la batterie, qui affecte la puissance maximale et les pertes thermiques.</p></li>
-</ul>
-<p><em>Batterie LiPo</em><br />
-<img alt="Pack Lipo" src="notebook/figures/LipoExample.png" /></p>
+  <section class="tex2jax_ignore mathjax_ignore" id="outcomes-and-events">
+<h1>Outcomes and events<a class="headerlink" href="#outcomes-and-events" title="Permalink to this heading">#</a></h1>
+<section id="publications">
+<h2>Publications<a class="headerlink" href="#publications" title="Permalink to this heading">#</a></h2>
 <blockquote>
-<div><p><strong>Question</strong>: Calculer la puissance spécifique et l’énergie spécifique de cette batterie LiPo de 273g.</p>
+<div><p>Rafik, Y., Palanque, V., Budinger, M., Pommier-Budinger, V., &amp; Olivier, P. (2024) <a class="reference external" href="https://iopscience.iop.org/article/10.1088/1361-665X/ad5126/meta">Improving resonant ice protection systems with substrate optimization</a>. Smart Materials and Structures, 33(7), 075008.</p>
 </div></blockquote>
+<p><strong>Abstract:</strong> Electro-mechanical de-icing systems are low-energy ice protection solutions based on ice fracture mechanisms. This article focuses on resonant electro-mechanical de-icing systems that actuate modes of flexion, which require low energy compared to extension modes. However, fracture propagation limits are encountered when using such flexural modes, preventing the ice from being completely detached from the substrate. This study demonstrates the feasibility of extending the ice detachment area by optimizing the thickness of the substrate. First, the interest and the limits of flexural resonant modes are discussed. Then the de-icing of a simple metallic beam in free conditions using a flexural mode is improved owing to the parametric optimization of the substrate thickness. The optimization is verified by tests on aluminum prototypes. The optimization results are then extended to a clamped composite plate and then to a NACA profile, showing interest in the approach to fully de-ice structures with modes of flexion, even in the case of complex geometries. With this last example, the study also demonstrates the feasibility of electro-mechanical ice protection systems for carbon fiber reinforced Polymer composite structures.</p>
+<blockquote>
+<div><p>Gastaldo, G., Rafik, Y., Budinger, M., Pommier-Budinger, V., Olivier, P., &amp; Navarro, P. (2022, September) <a class="reference external" href="https://hal.science/hal-03879795/">Proposition of a new qualification impact test for aerospace smart structures</a>. In ICAS 2022-33rd Congress of the International Council of the Aeronautical Sciences.</p>
+</div></blockquote>
+<p><strong>Abstract:</strong> Piezoelectric materials are employed in several different aerospace applications thanks to their actuating and sensing abilities. They can be adopted to control vibration, stress distribution, aeroelastic stability, shape changes, and in structural health monitoring systems. Given the level of reliability required in aeronautics, it is of vital importance to ensure their correct functioning during all aircraft life and for critical events such as impacts. This paper proposes a novel test standard method to measure and qualify the damage resistance of smart PZT structures to a drop-weight impact event. Procedures for the quantification of damage through measurements of electromechanical characteristics are introduced and verified by impact tests.</p>
 </section>
-<section id="modelisation-systeme-dune-batterie">
-<h2>Modélisation système d’une batterie<a class="headerlink" href="#modelisation-systeme-dune-batterie" title="Permalink to this heading">#</a></h2>
-<p>La modélisation d’une batterie nécessite une approche couplée électro-thermique [<span class="xref myst">Damay, 2016</span>] combinant des modèles électriques (tels que le circuit Randles) avec des modèles thermiques pour simuler à la fois les pertes électriques et les effets thermiques. Ces approches prennent en compte la diffusion des ions aux seins des matériaux actifs des électrodes et l’électrolyte et la génération de chaleur interne due au courant de charge et décharge.</p>
-<p><em>Couplage entre les modèles thermique, électrique et de génération de chaleur</em>
-<img alt="Couplage de modeles" src="notebook/figures/ElectroThermiqueBat.PNG" /></p>
-</section>
-<section id="references">
-<h2>Références<a class="headerlink" href="#references" title="Permalink to this heading">#</a></h2>
-<p><strong>[Damay, 20016]</strong> Damay, N. M. R., Friedrich, G., &amp; Forgez, C. (2016, June). Modelisation thermique en vue du dimensionnement d’un pack batterie, avec prise en compte du couplage electro-thermique pour la caracterisation des pertes electriques. In Symposium de Genie Electrique. <a class="reference external" href="https://hal.science/hal-01361630/document">Link</a></p>
+<section id="video">
+<h2>Video<a class="headerlink" href="#video" title="Permalink to this heading">#</a></h2>
+<p>Video summary of the building steps for the NACA prototype and a de-icing test :</p>
+<p><a class="reference external" href="https://youtu.be/k4ugVA-2w5k"><img alt="video" src="notebook/figures/video.PNG" /></a></p>
 </section>
 </section>
 
@@ -590,7 +502,7 @@ Elements technologiques complémentaires    <div class="sd-summary-down docutils
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Convertisseurs statiques : panorama</p>
+        <p class="prev-next-title">Members of the electromechanical deicing WP</p>
       </div>
     </a>
 </div>
@@ -608,10 +520,8 @@ Elements technologiques complémentaires    <div class="sd-summary-down docutils
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#de-la-cellule-au-pack-batterie">De la cellule au pack batterie</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notations-generales-associees-aux-batteries">Notations générales associées aux batteries</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelisation-systeme-dune-batterie">Modélisation système d’une batterie</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">Références</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publications">Publications</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video">Video</a></li>
 </ul>
   </nav></div>
 
