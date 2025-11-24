@@ -1,5 +1,5 @@
 
-nname: deploy-book-to-docs
+name: deploy-book-to-docs
 
 on:
   push:
