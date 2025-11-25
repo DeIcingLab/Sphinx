@@ -11,32 +11,29 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write
-      id-token: write
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python 3.9
+      - name: Set up Python
         uses: actions/setup-python@v3
         with:
           python-version: 3.9
-
-      - name: Cache installation
-        uses: actions/cache@v3
-        with:
-          path: ${{ env.pythonLocation }}
-          key: ${{ env.pythonLocation }}-${{ hashFiles('setup.py') }}-${{ hashFiles('requirements.txt') }}
 
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
-      - name: Build the book into /docs
+      - name: Build the book
         run: |
-          jupyter-book build --path-output docs .
+          jupyter-book build .
 
-      - name: Commit and push /docs to main
+      - name: Copy built site to /docs
+        run: |
+          rm -rf docs  # Supprime l'ancien dossier /docs s'il existe
+          cp -r _build/html docs  # Copie le contenu de _build/html vers /docs
+
+      - name: Commit and push /docs
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
