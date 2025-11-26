@@ -25,7 +25,7 @@ html:
   use_issues_button: true
   use_edit_page_button: true
   navbar_number_sections : true
-  baseurl: "/Sphinx/"  # ligne pour spécifier le chemin de base
+  baseurl: "/Sphinx/docs/"  # ligne pour spécifier le chemin de base
   # announcement: "Welcome to this new course!"
   # comments:
   #   hypothesis: false
