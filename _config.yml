@@ -25,6 +25,7 @@ html:
   use_issues_button: true
   use_edit_page_button: true
   navbar_number_sections : true
+  baseurl: "/Sphinx/"  # ligne pour spécifier le chemin de base
   # announcement: "Welcome to this new course!"
   # comments:
   #   hypothesis: false
@@ -67,4 +68,4 @@ sphinx:
     - substitution
 
     myst_substitutions:
-      TITLE: "SPHINX project: Air intake composite electromechanical resonant deicing"
+      TITLE: "SPHINx project: Air intake composite electromechanical resonant deicing"
